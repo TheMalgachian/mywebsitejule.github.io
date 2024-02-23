@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ccc; /* Fond gris de la page */
+  }
+  
+  .bandeau-noir {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .bandeau-haut {
+    order: -1;
+  }
+  
+  .conteneur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-deroulant {
+    margin-top: 20px;
+  }
+  
+  .cadre-blanc {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-principale img {
+    width: 50%; /* La largeur de l'image s'ajuste à 100% du cadre */
+    height: auto; /* Laisse la hauteur s'ajuster proportionnellement */
+    border-radius: 40%;
+}
+  
+  .bouton-retour {
+    display: block;
+    margin-top: 20px;
+  }
